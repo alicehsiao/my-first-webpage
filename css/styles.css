@@ -1,5 +1,6 @@
 h1 {
-  color: #ff0000;
+  color: #000080;
+  text-align: center;
 }
 
 h2 {
@@ -15,4 +16,31 @@ p {
 ul {
   font-size: 15px;
   line-height: 40px;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  text-align: left;
+  font-weight: bold;
+}
+
+/* visited link */
+a:visited {
+  color: hotpink;
+}
+
+/*unvisited link */
+a:link {
+  color: blue;
+}
+
+img {
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
 }
